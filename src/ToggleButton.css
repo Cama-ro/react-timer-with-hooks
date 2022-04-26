@@ -1,0 +1,18 @@
+.toggle-clock .show-clock {
+  font-size: 1rem;
+  font-weight: inherit;
+  text-transform: uppercase;
+  color: hotpink;
+  background-color: rgba(255, 255, 255, 0.555);
+  padding: 10px 20px;
+  border: 1px solid pink;
+  border-radius: 20px;
+  outline: 1px solid pink;
+  cursor: pointer;
+}
+
+.toggle-clock .show-clock:hover {
+  background-color: rgba(255, 0, 0, 0.555);
+  color: pink;
+  cursor: pointer;
+}

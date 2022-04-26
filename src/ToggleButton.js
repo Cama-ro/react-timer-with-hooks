@@ -7,7 +7,6 @@ class ToggleButton extends Component {
     super(props);
 
     this.state = {
-      // counterValue: this.props.initValue,
       showClock: true,
     };
   }

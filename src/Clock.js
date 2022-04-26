@@ -18,7 +18,7 @@ const Clock = (props) => {
   return (
     <div className="clock">
       <h2>{date.toLocaleTimeString()}</h2>
-      <button onClick={props.toggleClockMethod}>close timer</button>
+      <button onClick={props.toggleClockMethod}>close clock</button>
     </div>
   );
 };
